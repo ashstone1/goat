@@ -16,8 +16,8 @@ func UsageMarkdown() {
 
 	writeUsage(&bytes, `<!-- Automatically generated Markdown, do not edit -->
  <style type="text/css">
- h3 {margin-block-end: -0.5em;}
- h4 {margin-block-end: -0.5em;}
+ h3 {margin-open-end: -0.5em;}
+ h4 {margin-open-end: -0.5em;}
  code {font-size: larger;}
  </style>
 `)
